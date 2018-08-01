@@ -1,0 +1,21 @@
+- name: Demonstrate list variable and its navigation
+  hosts: all
+  vars:
+    my_software_tools:
+      - vim
+      - tree
+      - net-tools
+    proxy_configuration:
+       http_proxy: http://10.20.30.40:8080
+       https_proxy: https://10.20.30.40:8080
+
+  tasks:
+    - name: Install the utility
+      apt: 
+         name: "{{item}}" 
+         state: latest 
+         update_cache: yes
+      with_list: "{{my_software_tools}}"
+    
+    - debug: msg="Value of http_proxy is {{item.value}}"
+      with_dict: "{{proxy_configuration}}"

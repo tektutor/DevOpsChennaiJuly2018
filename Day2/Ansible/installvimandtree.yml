@@ -1,0 +1,9 @@
+- name: Demonstrates use of apt ansible module
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: Install vim utility
+      apt: name=vim state=latest update_cache=yes
+
+    - name: Install tree utility
+      apt: name=tree state=latest update_cache=yes

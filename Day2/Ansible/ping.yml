@@ -1,0 +1,5 @@
+- name: Demonstrates use of ping module in a playbook
+  hosts: all
+  tasks:
+    - name: Ping the machine
+      ping:
