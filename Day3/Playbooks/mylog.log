@@ -912,3 +912,22 @@
     }, 
     "changed": false
 }
+2018-08-02 14:41:54,378 p=117787 u=root |  PLAY [Demonstrate use of docker_container ansible module] ****************************************
+2018-08-02 14:41:54,386 p=117787 u=root |  TASK [Gathering Facts] ***************************************************************************
+2018-08-02 14:41:54,964 p=117787 u=root |  ok: [localhost]
+2018-08-02 14:41:54,974 p=117787 u=root |  TASK [Start the ubuntu container] ****************************************************************
+2018-08-02 14:41:55,961 p=117787 u=root |  changed: [localhost] => (item=1)
+2018-08-02 14:41:56,747 p=117787 u=root |  changed: [localhost] => (item=2)
+2018-08-02 14:41:56,765 p=117787 u=root |  TASK [Remove unwanted ubuntu containers] *********************************************************
+2018-08-02 14:41:57,036 p=117787 u=root |  ok: [localhost] => (item=3)
+2018-08-02 14:41:57,270 p=117787 u=root |  ok: [localhost] => (item=4)
+2018-08-02 14:41:57,507 p=117787 u=root |  ok: [localhost] => (item=5)
+2018-08-02 14:41:57,523 p=117787 u=root |  TASK [Start the centos container] ****************************************************************
+2018-08-02 14:41:58,352 p=117787 u=root |  changed: [localhost] => (item=1)
+2018-08-02 14:41:59,151 p=117787 u=root |  changed: [localhost] => (item=2)
+2018-08-02 14:41:59,168 p=117787 u=root |  TASK [Remove unwanted ubuntu containers] *********************************************************
+2018-08-02 14:41:59,433 p=117787 u=root |  ok: [localhost] => (item=3)
+2018-08-02 14:41:59,676 p=117787 u=root |  ok: [localhost] => (item=4)
+2018-08-02 14:41:59,911 p=117787 u=root |  ok: [localhost] => (item=5)
+2018-08-02 14:41:59,914 p=117787 u=root |  PLAY RECAP ***************************************************************************************
+2018-08-02 14:41:59,914 p=117787 u=root |  localhost                  : ok=5    changed=2    unreachable=0    failed=0   

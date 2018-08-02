@@ -1,0 +1,4 @@
+- name: Invoke nginx role
+  hosts: all
+  roles:
+    - nginx
