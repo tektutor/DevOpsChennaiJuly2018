@@ -1,0 +1,2 @@
+- name: Remove all containers
+  shell: docker rm -f $(docker ps -aq)

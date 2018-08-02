@@ -1,0 +1,9 @@
+---
+- name: Test the nginx containers
+  shell: curl "{{item}}" 
+  with_list: "{{nginx_urls}}"
+  register: output
+
+- name: Print the output
+  debug: var=output
+...

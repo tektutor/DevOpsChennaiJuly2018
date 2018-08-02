@@ -1,0 +1,12 @@
+- name: This is the first play in this playbook
+  hosts: ubuntu
+  tasks:
+    - name: This is is second task in first play
+      debug: msg="Second Task in First Play"
+
+- name: This is the second play in this playbook
+  hosts: centos 
+  tasks:
+    - name: This is is second task in second play
+      debug: msg="Second Task in Second Play"
+
