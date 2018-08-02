@@ -1,5 +1,6 @@
 - name: Create the docker containers
   hosts: localhost
+  ignore_errors: True
   pre_tasks:
     - debug: msg="Pre task invoked ..."
     - include: remove_all_containers.yml
@@ -22,6 +23,7 @@
 
 - name: Test and Cleanup 
   hosts: localhost
+  ignore_errors: True
   vars:
     - nginx_urls:
           - http://localhost:8001
