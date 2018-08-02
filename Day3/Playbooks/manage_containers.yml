@@ -1,0 +1,40 @@
+- name: Demonstrate use of docker_container ansible module
+  hosts: localhost
+  tasks:
+    - name: Start the ubuntu container
+      docker_container:
+        name: "ubuntu{{item}}"
+        hostname: "ubuntu{{item}}"
+        image: tektutor/ansible-ubuntu
+        state: started
+        ports:
+          - "200{{item}}:22"
+          - "800{{item}}:80"
+      with_sequence: start=1 end=2
+
+    - name: Remove unwanted ubuntu containers
+      docker_container:
+        name: "ubuntu{{item}}"
+        hostname: "ubuntu{{item}}"
+        image: tektutor/ansible-ubuntu
+        state: absent 
+      with_sequence: start=3 end=5
+
+    - name: Start the centos container
+      docker_container:
+        name: "centos{{item}}"
+        hostname: "centos{{item}}"
+        image: tektutor/ansible-centos
+        state: started
+        ports:
+          - "300{{item}}:22"
+          - "900{{item}}:80"
+      with_sequence: start=1 end=2
+
+    - name: Remove unwanted ubuntu containers
+      docker_container:
+        name: "centos{{item}}"
+        hostname: "centos{{item}}"
+        image: tektutor/ansible-centos
+        state: absent 
+      with_sequence: start=3 end=5

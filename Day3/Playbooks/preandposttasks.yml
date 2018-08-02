@@ -1,0 +1,13 @@
+- name: Demonstrates pre and post tasks
+  hosts: all
+  pre_tasks:
+     - name: This is a pre task
+       debug: msg="Pre Task ..."
+
+  tasks:
+     - name: This is a task
+       debug: msg="Task ..."
+
+  post_tasks:
+     - name: This is a post task
+       debug: msg="Post task ..."

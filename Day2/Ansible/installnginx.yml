@@ -1,5 +1,6 @@
 - name: Install, Configure and Deploy web page in nginx web server
   hosts: all
+  ignore_errors: no 
   vars:
      - greeting_msg: DevOps!
   vars_files:

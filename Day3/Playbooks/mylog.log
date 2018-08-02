@@ -1,0 +1,267 @@
+2018-08-01 11:44:14,831 p=52438 u=root |  PLAY [Demonstrates pre and post tasks] ************************************************
+2018-08-01 11:44:14,840 p=52438 u=root |  TASK [Gathering Facts] ****************************************************************
+2018-08-01 11:44:15,664 p=52438 u=root |  ok: [ubuntu4]
+2018-08-01 11:44:15,678 p=52438 u=root |  ok: [ubuntu5]
+2018-08-01 11:44:15,742 p=52438 u=root |  ok: [ubuntu1]
+2018-08-01 11:44:15,747 p=52438 u=root |  ok: [ubuntu3]
+2018-08-01 11:44:15,753 p=52438 u=root |  ok: [ubuntu2]
+2018-08-01 11:44:15,761 p=52438 u=root |  TASK [This is a pre task] *************************************************************
+2018-08-01 11:44:15,814 p=52438 u=root |  ok: [ubuntu1] => {
+    "msg": "Pre Task ..."
+}
+2018-08-01 11:44:15,839 p=52438 u=root |  ok: [ubuntu2] => {
+    "msg": "Pre Task ..."
+}
+2018-08-01 11:44:15,840 p=52438 u=root |  ok: [ubuntu4] => {
+    "msg": "Pre Task ..."
+}
+2018-08-01 11:44:15,854 p=52438 u=root |  ok: [ubuntu5] => {
+    "msg": "Pre Task ..."
+}
+2018-08-01 11:44:15,876 p=52438 u=root |  ok: [ubuntu3] => {
+    "msg": "Pre Task ..."
+}
+2018-08-01 11:44:15,886 p=52438 u=root |  TASK [This is a task] *****************************************************************
+2018-08-01 11:44:15,954 p=52438 u=root |  ok: [ubuntu1] => {
+    "msg": "Task ..."
+}
+2018-08-01 11:44:15,976 p=52438 u=root |  ok: [ubuntu2] => {
+    "msg": "Task ..."
+}
+2018-08-01 11:44:15,977 p=52438 u=root |  ok: [ubuntu4] => {
+    "msg": "Task ..."
+}
+2018-08-01 11:44:15,990 p=52438 u=root |  ok: [ubuntu5] => {
+    "msg": "Task ..."
+}
+2018-08-01 11:44:16,015 p=52438 u=root |  ok: [ubuntu3] => {
+    "msg": "Task ..."
+}
+2018-08-01 11:44:16,024 p=52438 u=root |  TASK [This is a post task] ************************************************************
+2018-08-01 11:44:16,092 p=52438 u=root |  ok: [ubuntu1] => {
+    "msg": "Post task ..."
+}
+2018-08-01 11:44:16,116 p=52438 u=root |  ok: [ubuntu2] => {
+    "msg": "Post task ..."
+}
+2018-08-01 11:44:16,125 p=52438 u=root |  ok: [ubuntu4] => {
+    "msg": "Post task ..."
+}
+2018-08-01 11:44:16,131 p=52438 u=root |  ok: [ubuntu5] => {
+    "msg": "Post task ..."
+}
+2018-08-01 11:44:16,155 p=52438 u=root |  ok: [ubuntu3] => {
+    "msg": "Post task ..."
+}
+2018-08-01 11:44:16,158 p=52438 u=root |  PLAY RECAP ****************************************************************************
+2018-08-01 11:44:16,158 p=52438 u=root |  ubuntu1                    : ok=4    changed=0    unreachable=0    failed=0   
+2018-08-01 11:44:16,158 p=52438 u=root |  ubuntu2                    : ok=4    changed=0    unreachable=0    failed=0   
+2018-08-01 11:44:16,158 p=52438 u=root |  ubuntu3                    : ok=4    changed=0    unreachable=0    failed=0   
+2018-08-01 11:44:16,159 p=52438 u=root |  ubuntu4                    : ok=4    changed=0    unreachable=0    failed=0   
+2018-08-01 11:44:16,159 p=52438 u=root |  ubuntu5                    : ok=4    changed=0    unreachable=0    failed=0   
+2018-08-01 11:46:13,127 p=53126 u=root |  PLAY [Demonstrates pre and post tasks] ************************************************
+2018-08-01 11:46:13,136 p=53126 u=root |  TASK [Gathering Facts] ****************************************************************
+2018-08-01 11:46:14,007 p=53126 u=root |  ok: [ubuntu5]
+2018-08-01 11:46:14,076 p=53126 u=root |  ok: [ubuntu4]
+2018-08-01 11:46:14,086 p=53126 u=root |  ok: [ubuntu2]
+2018-08-01 11:46:14,108 p=53126 u=root |  ok: [ubuntu1]
+2018-08-01 11:46:14,120 p=53126 u=root |  ok: [ubuntu3]
+2018-08-01 11:46:14,128 p=53126 u=root |  TASK [This is a pre task] *************************************************************
+2018-08-01 11:46:14,184 p=53126 u=root |  ok: [ubuntu1] => {
+    "msg": "Pre Task ..."
+}
+2018-08-01 11:46:14,204 p=53126 u=root |  ok: [ubuntu2] => {
+    "msg": "Pre Task ..."
+}
+2018-08-01 11:46:14,204 p=53126 u=root |  ok: [ubuntu4] => {
+    "msg": "Pre Task ..."
+}
+2018-08-01 11:46:14,226 p=53126 u=root |  ok: [ubuntu5] => {
+    "msg": "Pre Task ..."
+}
+2018-08-01 11:46:14,244 p=53126 u=root |  ok: [ubuntu3] => {
+    "msg": "Pre Task ..."
+}
+2018-08-01 11:46:14,255 p=53126 u=root |  TASK [This is a task] *****************************************************************
+2018-08-01 11:46:14,310 p=53126 u=root |  ok: [ubuntu1] => {
+    "msg": "Task ..."
+}
+2018-08-01 11:46:14,328 p=53126 u=root |  ok: [ubuntu2] => {
+    "msg": "Task ..."
+}
+2018-08-01 11:46:14,329 p=53126 u=root |  ok: [ubuntu4] => {
+    "msg": "Task ..."
+}
+2018-08-01 11:46:14,344 p=53126 u=root |  ok: [ubuntu5] => {
+    "msg": "Task ..."
+}
+2018-08-01 11:46:14,367 p=53126 u=root |  ok: [ubuntu3] => {
+    "msg": "Task ..."
+}
+2018-08-01 11:46:14,376 p=53126 u=root |  TASK [This is a post task] ************************************************************
+2018-08-01 11:46:14,445 p=53126 u=root |  ok: [ubuntu1] => {
+    "msg": "Post task ..."
+}
+2018-08-01 11:46:14,465 p=53126 u=root |  ok: [ubuntu2] => {
+    "msg": "Post task ..."
+}
+2018-08-01 11:46:14,469 p=53126 u=root |  ok: [ubuntu4] => {
+    "msg": "Post task ..."
+}
+2018-08-01 11:46:14,490 p=53126 u=root |  ok: [ubuntu5] => {
+    "msg": "Post task ..."
+}
+2018-08-01 11:46:14,505 p=53126 u=root |  ok: [ubuntu3] => {
+    "msg": "Post task ..."
+}
+2018-08-01 11:46:14,508 p=53126 u=root |  PLAY RECAP ****************************************************************************
+2018-08-01 11:46:14,508 p=53126 u=root |  ubuntu1                    : ok=4    changed=0    unreachable=0    failed=0   
+2018-08-01 11:46:14,508 p=53126 u=root |  ubuntu2                    : ok=4    changed=0    unreachable=0    failed=0   
+2018-08-01 11:46:14,508 p=53126 u=root |  ubuntu3                    : ok=4    changed=0    unreachable=0    failed=0   
+2018-08-01 11:46:14,508 p=53126 u=root |  ubuntu4                    : ok=4    changed=0    unreachable=0    failed=0   
+2018-08-01 11:46:14,509 p=53126 u=root |  ubuntu5                    : ok=4    changed=0    unreachable=0    failed=0   
+2018-08-01 11:46:32,397 p=53410 u=root |  PLAY [Demonstrates pre and post tasks] ************************************************
+2018-08-01 11:46:32,405 p=53410 u=root |  TASK [Gathering Facts] ****************************************************************
+2018-08-01 11:46:33,064 p=53410 u=root |  ok: [ubuntu4]
+2018-08-01 11:46:33,104 p=53410 u=root |  ok: [ubuntu1]
+2018-08-01 11:46:33,124 p=53410 u=root |  ok: [ubuntu2]
+2018-08-01 11:46:33,429 p=53410 u=root |  ok: [ubuntu3]
+2018-08-01 11:46:34,079 p=53410 u=root |  ok: [ubuntu5]
+2018-08-01 11:46:57,989 p=53410 u=root |   [ERROR]: User interrupted execution
+
+2018-08-01 11:47:05,753 p=53608 u=root |  PLAY [Demonstrates pre and post tasks] ************************************************
+2018-08-01 11:47:05,761 p=53608 u=root |  TASK [Gathering Facts] ****************************************************************
+2018-08-01 11:47:06,492 p=53608 u=root |  ok: [ubuntu5]
+2018-08-01 11:47:06,500 p=53608 u=root |  ok: [ubuntu4]
+2018-08-01 11:47:06,531 p=53608 u=root |  ok: [ubuntu2]
+2018-08-01 11:47:06,563 p=53608 u=root |  ok: [ubuntu1]
+2018-08-01 11:47:06,635 p=53608 u=root |  ok: [ubuntu6]
+2018-08-01 11:47:06,862 p=53608 u=root |  ok: [ubuntu3]
+2018-08-01 11:47:06,870 p=53608 u=root |  TASK [This is a pre task] *************************************************************
+2018-08-01 11:47:06,929 p=53608 u=root |  ok: [ubuntu6] => {
+    "msg": "Pre Task ..."
+}
+2018-08-01 11:47:06,945 p=53608 u=root |  ok: [ubuntu1] => {
+    "msg": "Pre Task ..."
+}
+2018-08-01 11:47:06,963 p=53608 u=root |  ok: [ubuntu2] => {
+    "msg": "Pre Task ..."
+}
+2018-08-01 11:47:06,979 p=53608 u=root |  ok: [ubuntu5] => {
+    "msg": "Pre Task ..."
+}
+2018-08-01 11:47:06,979 p=53608 u=root |  ok: [ubuntu4] => {
+    "msg": "Pre Task ..."
+}
+2018-08-01 11:47:07,003 p=53608 u=root |  ok: [ubuntu3] => {
+    "msg": "Pre Task ..."
+}
+2018-08-01 11:47:07,012 p=53608 u=root |  TASK [This is a task] *****************************************************************
+2018-08-01 11:47:07,056 p=53608 u=root |  ok: [ubuntu6] => {
+    "msg": "Task ..."
+}
+2018-08-01 11:47:07,095 p=53608 u=root |  ok: [ubuntu1] => {
+    "msg": "Task ..."
+}
+2018-08-01 11:47:07,114 p=53608 u=root |  ok: [ubuntu2] => {
+    "msg": "Task ..."
+}
+2018-08-01 11:47:07,115 p=53608 u=root |  ok: [ubuntu4] => {
+    "msg": "Task ..."
+}
+2018-08-01 11:47:07,133 p=53608 u=root |  ok: [ubuntu5] => {
+    "msg": "Task ..."
+}
+2018-08-01 11:47:07,148 p=53608 u=root |  ok: [ubuntu3] => {
+    "msg": "Task ..."
+}
+2018-08-01 11:47:07,160 p=53608 u=root |  TASK [This is a post task] ************************************************************
+2018-08-01 11:47:07,227 p=53608 u=root |  ok: [ubuntu6] => {
+    "msg": "Post task ..."
+}
+2018-08-01 11:47:07,256 p=53608 u=root |  ok: [ubuntu1] => {
+    "msg": "Post task ..."
+}
+2018-08-01 11:47:07,281 p=53608 u=root |  ok: [ubuntu2] => {
+    "msg": "Post task ..."
+}
+2018-08-01 11:47:07,282 p=53608 u=root |  ok: [ubuntu4] => {
+    "msg": "Post task ..."
+}
+2018-08-01 11:47:07,300 p=53608 u=root |  ok: [ubuntu5] => {
+    "msg": "Post task ..."
+}
+2018-08-01 11:47:07,316 p=53608 u=root |  ok: [ubuntu3] => {
+    "msg": "Post task ..."
+}
+2018-08-01 11:47:07,318 p=53608 u=root |  PLAY RECAP ****************************************************************************
+2018-08-01 11:47:07,318 p=53608 u=root |  ubuntu1                    : ok=4    changed=0    unreachable=0    failed=0   
+2018-08-01 11:47:07,319 p=53608 u=root |  ubuntu2                    : ok=4    changed=0    unreachable=0    failed=0   
+2018-08-01 11:47:07,319 p=53608 u=root |  ubuntu3                    : ok=4    changed=0    unreachable=0    failed=0   
+2018-08-01 11:47:07,319 p=53608 u=root |  ubuntu4                    : ok=4    changed=0    unreachable=0    failed=0   
+2018-08-01 11:47:07,319 p=53608 u=root |  ubuntu5                    : ok=4    changed=0    unreachable=0    failed=0   
+2018-08-01 11:47:07,319 p=53608 u=root |  ubuntu6                    : ok=4    changed=0    unreachable=0    failed=0   
+2018-08-01 12:30:21,745 p=56185 u=root |  PLAY [Demonstrate use of docker_container ansible module] *****************************
+2018-08-01 12:30:21,753 p=56185 u=root |  TASK [Gathering Facts] ****************************************************************
+2018-08-01 12:30:22,398 p=56185 u=root |  ok: [localhost]
+2018-08-01 12:30:22,409 p=56185 u=root |  TASK [Start the ubuntu container] *****************************************************
+2018-08-01 12:30:22,869 p=56185 u=root |  ok: [localhost] => (item=1)
+2018-08-01 12:30:23,199 p=56185 u=root |  ok: [localhost] => (item=2)
+2018-08-01 12:30:23,465 p=56185 u=root |  ok: [localhost] => (item=3)
+2018-08-01 12:30:23,749 p=56185 u=root |  ok: [localhost] => (item=4)
+2018-08-01 12:30:24,008 p=56185 u=root |  ok: [localhost] => (item=5)
+2018-08-01 12:30:24,030 p=56185 u=root |  TASK [Start the centos container] *****************************************************
+2018-08-01 12:30:24,859 p=56185 u=root |  changed: [localhost] => (item=1)
+2018-08-01 12:30:25,660 p=56185 u=root |  changed: [localhost] => (item=2)
+2018-08-01 12:30:26,464 p=56185 u=root |  changed: [localhost] => (item=3)
+2018-08-01 12:30:27,290 p=56185 u=root |  changed: [localhost] => (item=4)
+2018-08-01 12:30:28,113 p=56185 u=root |  changed: [localhost] => (item=5)
+2018-08-01 12:30:28,129 p=56185 u=root |  PLAY RECAP ****************************************************************************
+2018-08-01 12:30:28,129 p=56185 u=root |  localhost                  : ok=3    changed=1    unreachable=0    failed=0   
+2018-08-01 12:44:31,840 p=57396 u=root |  PLAY [Demonstrate use of docker_container ansible module] *****************************
+2018-08-01 12:44:31,847 p=57396 u=root |  TASK [Gathering Facts] ****************************************************************
+2018-08-01 12:44:32,460 p=57396 u=root |  ok: [localhost]
+2018-08-01 12:44:32,471 p=57396 u=root |  TASK [Start the ubuntu container] *****************************************************
+2018-08-01 12:44:32,872 p=57396 u=root |  ok: [localhost] => (item=1)
+2018-08-01 12:44:33,107 p=57396 u=root |  ok: [localhost] => (item=2)
+2018-08-01 12:44:33,122 p=57396 u=root |  TASK [Remove unwanted ubuntu containers] **********************************************
+2018-08-01 12:44:33,955 p=57396 u=root |  changed: [localhost] => (item=3)
+2018-08-01 12:44:34,684 p=57396 u=root |  changed: [localhost] => (item=4)
+2018-08-01 12:44:35,445 p=57396 u=root |  changed: [localhost] => (item=5)
+2018-08-01 12:44:35,460 p=57396 u=root |  TASK [Start the centos container] *****************************************************
+2018-08-01 12:44:35,754 p=57396 u=root |  ok: [localhost] => (item=1)
+2018-08-01 12:44:36,007 p=57396 u=root |  ok: [localhost] => (item=2)
+2018-08-01 12:44:36,025 p=57396 u=root |  TASK [Remove unwanted ubuntu containers] **********************************************
+2018-08-01 12:44:36,758 p=57396 u=root |  changed: [localhost] => (item=3)
+2018-08-01 12:44:37,508 p=57396 u=root |  changed: [localhost] => (item=4)
+2018-08-01 12:44:38,204 p=57396 u=root |  changed: [localhost] => (item=5)
+2018-08-01 12:44:38,207 p=57396 u=root |  PLAY RECAP ****************************************************************************
+2018-08-01 12:44:38,207 p=57396 u=root |  localhost                  : ok=5    changed=2    unreachable=0    failed=0   
+2018-08-01 16:41:34,809 p=66166 u=root |  ubuntu5 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 2005: Connection refused\r\n", 
+    "unreachable": true
+}
+2018-08-01 16:41:34,812 p=66166 u=root |  ubuntu4 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 2004: Connection refused\r\n", 
+    "unreachable": true
+}
+2018-08-01 16:41:34,813 p=66166 u=root |  ubuntu6 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 2006: Connection refused\r\n", 
+    "unreachable": true
+}
+2018-08-01 16:41:34,874 p=66166 u=root |  ubuntu3 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host localhost port 2003: Connection refused\r\n", 
+    "unreachable": true
+}
+2018-08-01 16:41:35,098 p=66166 u=root |  ubuntu1 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2018-08-01 16:41:35,100 p=66166 u=root |  ubuntu2 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
