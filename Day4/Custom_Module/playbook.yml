@@ -1,0 +1,8 @@
+- name: Demonstrates invoking our custom ansible module
+  hosts: localhost
+  tasks:
+    - name: Invoke add module
+      add: firstInput=1000 secondInput=2000
+      register: output
+   
+    - debug: var=output
